@@ -1,0 +1,219 @@
+:root {
+    --main-color: #cbfe1c;
+    --color-wt: #fff;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+ul {
+    list-style: none;
+}
+
+li.nav-link a {
+    text-decoration: none;
+}
+
+.bg-dark-gray {
+    background-color: #0b0e13;
+}
+
+.nav-header-logo {
+    color: var(--main-color);
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--main-color);
+}
+
+.navbar-nav .nav-link {
+    color: var(--color-wt);
+    transition: color 0.3s;
+
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--main-color);
+}
+
+.navbar-text {
+    border-top: 1px solid #1e2939;
+    flex-direction: column;
+
+
+}
+
+.navbar-text button:nth-of-type(1):hover,
+.navbar-text button:nth-of-type(2):hover {
+    color: var(--main-color) !important;
+}
+
+.navbar-text button:nth-of-type(1),
+.navbar-text button:nth-of-type(2) {
+    background-color: transparent;
+    transition: color 0.2s;
+}
+
+.btn-all::before {
+    content: '';
+    background: linear-gradient(to right, #00000000, rgba(255, 255, 255, 0.329), #0000);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: -100%;
+    display: block;
+    transition: all 0.3s;
+
+}
+
+.btn-all:hover::before {
+    left: 100%;
+}
+
+.btn-all {
+    background-color: var(--main-color);
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s;
+    padding: 11px 21px;
+}
+
+.btn-all:hover {
+    background-color: #a4ce1a;
+
+}
+
+#navbarText {
+    border-top: 1px solid #0b0e13;
+}
+
+.navbar-toggler {
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.navbar-toggler:hover {
+    color: var(--main-color) !important;
+}
+
+#home {
+    padding-block: 120px 64px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88)), url(https://game-arena-theta.vercel.app/assets/hero-bg-H6PoyNYD.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+/* ^home */
+
+#home h1 span {
+    color: var(--main-color);
+    -webkit-text-stroke: 2px var(--main-color);
+}
+
+#home h1 {
+    -webkit-text-stroke: 2px #fff;
+    font-size: 40px;
+}
+
+.letter-space {
+    letter-spacing: 1px;
+}
+
+#home .home-header p {
+    color: #d1d5dc;
+    font-size: 14px;
+}
+
+.btn-3 {
+    padding: 11px 21px;
+    background-color: transparent;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    transition: all 0.3s;
+}
+
+.btn-3:hover {
+    background-color: var(--main-color) !important;
+    color: #000;
+}
+
+.home-img {
+    background:
+
+        linear-gradient(to right, #c9fe21 0%, #c9fe21 30%, #07df72 70%, #07df72 100%) border-box;
+    border-radius: 16px;
+    border: 4.5px solid transparent;
+}
+
+.home-img img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.img-item {
+    background-color: #0b0e13;
+    border: 1px solid #333d4e;
+    bottom: -14px;
+    left: -14px;
+
+}
+
+.fa-trophy {
+    font-size: 18px;
+    color: #cbfe1c;
+    margin-right: 11px;
+}
+
+.text-gray {
+    color: #99a1af;
+}
+
+@media screen and (min-width:567px) {
+    .navbar {
+        --bs-navbar-padding-y: 1rem;
+    }
+
+    .container-fluid {
+        --bs-gutter-x: 0rem;
+    }
+
+    #navbarText {
+        border-top: 1px solid #0b0e13;
+    }
+
+
+}
+
+@media screen and (min-width:747px) {
+    .navbar {
+        --bs-navbar-padding-y: 1rem;
+
+    }
+
+    .container-fluid {
+        --bs-gutter-x: 3rem;
+
+    }
+
+    #navbarText {
+        border-top: none;
+    }
+
+    .navbar-text {
+        border-top: none;
+    }
+    #home h1 {
+    -webkit-text-stroke: 2px #fff;
+    font-size: 55px;
+    line-height: 1.5;
+}
+.home-img img {
+    width: 100%;
+    height: 390px;
+    object-fit: cover;
+}
+}
