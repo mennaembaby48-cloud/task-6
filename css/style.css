@@ -403,4 +403,8 @@ font-size:16px ;
 #our-team{
     padding-block: 96px;
 }
+
+.copy-right a{
+    font-size: 16px;
+}
 }
