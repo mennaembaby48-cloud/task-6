@@ -11,7 +11,7 @@ ul {
     list-style: none;
 }
 
-li.nav-link a {
+ a {
     text-decoration: none;
 }
 
@@ -264,8 +264,36 @@ form button[type]{
     margin-top: 32px;
 }
 
+
 .form-footer >div:nth-of-type(1) div >div:nth-of-type(1){
 color: var(--main-color);
+}
+/* ^footer */
+footer#contact-us{
+    padding-block: 64px;
+    background-color: #000;
+}
+
+footer i,footer a{
+    transition: color 0.3s;
+}
+footer i:hover, footer a:hover{
+color:var(--main-color);
+}
+.fs-14{
+    font-size: 14px;
+}
+
+.fw-200{
+    font-weight: 200;
+}
+.mb-12{
+    margin-bottom: 12px;
+}
+
+.copy-right{
+    padding-top: 28px;
+    
 }
 
 @media screen and (min-width:567px) {
@@ -281,6 +309,7 @@ color: var(--main-color);
         border-top: 1px solid #0b0e13;
     }
 
+    
 
 }
 
@@ -312,5 +341,6 @@ color: var(--main-color);
     height: 390px;
     object-fit: cover;
 }
+
 
 }
