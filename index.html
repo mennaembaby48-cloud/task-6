@@ -7,7 +7,11 @@
   <title>Document</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
@@ -15,7 +19,7 @@
 
 <body data-bs-spy="scroll" data-bs-target="#navbar">
   <!-- ^nav-bar -->
-  <nav class="navbar navbar-expand-lg bg-dark-gray position-fixed top-0 w-100 z-3 py-3">
+  <nav class="navbar navbar-expand-lg bg-dark-gray position-fixed top-0 w-100 z-3 py-3 border-gray-2">
     <div class="container-fluid px-4">
 
 
@@ -31,29 +35,29 @@
       <div class="collapse navbar-collapse py-3 py-lg-0" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item fs-5 fw-700">
-            <a class="nav-link active fs-6 fw-700 ms-md-3 mb-3 mb-md-0 p-md-0" aria-current="page" href="#home">Home</a>
+            <a class="nav-link active fs-6 ms-md-3 mb-3 mb-md-0 p-md-0" aria-current="page" href="#home">Home</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link fs-6 fw-700 ms-md-3 mb-3 mb-md-0 p-md-0" href="#our-games">OUR GAMES</a>
+            <a class="nav-link fs-6 ms-md-3 mb-3 mb-md-0 p-md-0" href="#our-games">OUR GAMES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-6 fw-700 ms-md-3 mb-3 mb-md-0 p-md-0" href="#what-we-do">What We Do</a>
+            <a class="nav-link fs-6 ms-md-3 mb-3 mb-md-0 p-md-0" href="#what-we-do">What We Do</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-6 fw-700 ms-md-3 mb-3 mb-md-0 p-md-0" href="#our-team">Our Team</a>
+            <a class="nav-link fs-6 ms-md-3 mb-3 mb-md-0 p-md-0" href="#our-team">Our Team</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-6 fw-700 ms-md-3 mb-3 mb-md-0 p-md-0" href="#contact-us">Contact Us</a>
+            <a class="nav-link fs-6  ms-md-3 mb-3 mb-md-0 p-md-0" href="#contact-us">Contact Us</a>
           </li>
         </ul>
         <span
-          class="navbar-text d-flex flex-col flex-md-row align-items-start align-items-md-center align-items-lg-center py-3">
+          class="navbar-text d-flex flex-column flex-lg-row align-items-start align-items-md-center align-items-lg-center py-0 pt-4 pt-lg-0">
           <button class="me-md-3 p-0 cursor-pointer fs-6 text-white mb-3 mb-md-0 text-left border-0"> <i
               class="fa-regular fa-bell me-2 me-md-0"></i><span class="d-md-none">Notification</span></button>
           <button class="me-md-3 p-0 cursor-pointer fs-6 text-white mb-3 mb-md-0  text-left border-0"><i
               class="fa-regular fa-message me-2 me-md-0"></i><span class="d-md-none">Message</span></button>
           <button
-            class="px-4 py-2 rounded-3 me-md-3 cursor-pointer fs-6 fw-bolder mb-3 mb-md-0 w-100 btn-all border-0">Sign
+            class="px-4 py-2 rounded-3 me-md-3 cursor-pointer fs-6 fw-bolder w-100 btn-all border-0">Sign
             In</button>
         </span>
       </div>
@@ -99,85 +103,170 @@
       </div>
     </section>
 
+    <!-- ^our-games-section -->
+<section id="our-games"></section>
     <!-- ^what we do -section -->
 
-    <section id="what-we-do" class="bg-dark-gray px-lg-4 px-3">
-      <div class="heading text-center">
-        <p class="position-relative d-inline-block fw-700 mb-3 letter-space fs-6">WHAT WE DO</p>
-        <h2 class="fw-bolder text-white mb-1">More Than Just Games</h2>
-        <p class="text-white m-0">We Build <span>Interactive </span> Journeys</p>
-      </div>
+    <section id="what-we-do" class="bg-dark-gray position-relative">
+      <div class="px-lg-4 px-3">
+        <div class="heading text-center">
+          <p class="position-relative d-inline-block fw-700 mb-3 letter-space fs-6">WHAT WE DO</p>
+          <h2 class="fw-bolder text-white mb-1">More Than Just Games</h2>
+          <p class="text-white m-0">We Build <span>Interactive </span> Journeys</p>
+        </div>
 
-      <div class="container-fluid px-0">
-        <div class="row gy-lg-4 gy-3 gx-3 gx-lg-4 ">
-          <div class="col-6 col-md-6 col-lg-3 what-we-do">
-            <div
-              class="border-gray-2 rounded-4 d-flex align-items-center justify-content-center flex-column flex-wrap bg-dark-4 aspect-ratio p-3 p-lg-4">
-              <div class="what-we-do-icon rounded-3 d-flex align-items-center justify-content-center mb-12 mb-lg-3"><i
-                  class="fa-solid fa-desktop"></i></div>
-              <h3 class="text-white fs-5 fw-bolder text-center">PC Game <br> Development</h3>
+        <div class="container-fluid px-0">
+          <div class="row gy-lg-4 gy-3 gx-3 gx-lg-4 ">
+            <div class="col-6 col-md-6 col-lg-3 what-we-do position-relative overflow-hidden">
+              <div
+                class="border-gray-2 rounded-4 d-flex align-items-center justify-content-center flex-column flex-wrap bg-dark-4 aspect-ratio p-3 p-lg-4">
+                <div class="what-we-do-icon rounded-3 d-flex align-items-center justify-content-center mb-12 mb-lg-3"><i
+                    class="fa-solid fa-desktop"></i></div>
+                <h3 class="text-white fs-5 fw-bolder text-center">PC Game <br> Development</h3>
+              </div>
+              <div class="position-absolute triangle-shape"></div>
+              <div class="position-absolute triangle-shape-2"></div>
             </div>
-          </div>
-          <div class="col-6 col-md-6 col-lg-3 what-we-do ">
-            <div
-              class="border-gray-2 rounded-4 d-flex align-items-center justify-content-center flex-column flex-wrap bg-dark-4 aspect-ratio p-3 p-lg-4">
-              <div class="what-we-do-icon rounded-3 d-flex align-items-center justify-content-center mb-12 mb-lg-3"><i
-                  class="fa-solid fa-mobile-screen-button"></i></div>
-              <h3 class="text-white fs-5 fw-bolder text-center">Mobile Game <br> Development</h3>
+            <div class="col-6 col-md-6 col-lg-3 what-we-do position-relative overflow-hidden">
+              <div
+                class="border-gray-2 rounded-4 d-flex align-items-center justify-content-center flex-column flex-wrap bg-dark-4 aspect-ratio p-3 p-lg-4">
+                <div class="what-we-do-icon rounded-3 d-flex align-items-center justify-content-center mb-12 mb-lg-3"><i
+                    class="fa-solid fa-mobile-screen-button"></i></div>
+                <h3 class="text-white fs-5 fw-bolder text-center">Mobile Game <br> Development</h3>
+              </div>
+              <div class="position-absolute triangle-shape"></div>
+              <div class="position-absolute triangle-shape-2"></div>
             </div>
-          </div>
-          <div class="col-6 col-md-6 col-lg-3">
-            <div class="aspect-ratio">
-              <img src="imgs/what-we-do-1-DuZnkwGW.png" alt="logo-1" class="rounded-3">
+            <div class="col-6 col-md-6 col-lg-3">
+              <div class="aspect-ratio">
+                <img src="imgs/what-we-do-1-DuZnkwGW.png" alt="logo-1" class="rounded-3">
+              </div>
             </div>
-          </div>
-          <div class="col-6 col-md-6 col-lg-3 what-we-do ">
-            <div
-              class="border-gray-2 rounded-4 d-flex align-items-center justify-content-center flex-column flex-wrap bg-dark-4 aspect-ratio p-3 p-lg-4">
-              <div class="what-we-do-icon rounded-3 d-flex align-items-center justify-content-center mb-12 mb-lg-3"><i
-                  class="fa-solid fa-vr-cardboard"></i></div>
-              <h3 class="text-white fs-5 fw-bolder text-center">AR/VR <br> Solutions</h3>
+            <div class="col-6 col-md-6 col-lg-3 what-we-do position-relative overflow-hidden">
+              <div
+                class="border-gray-2 rounded-4 d-flex align-items-center justify-content-center flex-column flex-wrap bg-dark-4 aspect-ratio p-3 p-lg-4">
+                <div class="what-we-do-icon rounded-3 d-flex align-items-center justify-content-center mb-12 mb-lg-3"><i
+                    class="fa-solid fa-vr-cardboard"></i></div>
+                <h3 class="text-white fs-5 fw-bolder text-center">AR/VR <br> Solutions</h3>
+              </div>
+              <div class="position-absolute triangle-shape"></div>
+              <div class="position-absolute triangle-shape-2"></div>
             </div>
-          </div>
-          <div class="col-6 col-md-6 col-lg-3 what-we-do ">
-            <div
-              class="border-gray-2 rounded-4 d-flex align-items-center justify-content-center flex-column flex-wrap bg-dark-4 aspect-ratio p-3 p-lg-4">
-              <div class="what-we-do-icon rounded-3 d-flex align-items-center justify-content-center mb-12 mb-lg-3"><i
-                  class="fa-solid fa-cubes"></i></div>
-              <h3 class="text-white fs-5 fw-bolder text-center">AR/VR <br> Design</h3>
+            <div class="col-6 col-md-6 col-lg-3 what-we-do position-relative overflow-hidden">
+              <div
+                class="border-gray-2 rounded-4 d-flex align-items-center justify-content-center flex-column flex-wrap bg-dark-4 aspect-ratio p-3 p-lg-4">
+                <div class="what-we-do-icon rounded-3 d-flex align-items-center justify-content-center mb-12 mb-lg-3"><i
+                    class="fa-solid fa-cubes"></i></div>
+                <h3 class="text-white fs-5 fw-bolder text-center">AR/VR <br> Design</h3>
+              </div>
+              <div class="position-absolute triangle-shape"></div>
+              <div class="position-absolute triangle-shape-2"></div>
             </div>
-          </div>
-          <div class="col-6 col-md-6 col-lg-3  ">
-            <div class="aspect-ratio">
-              <img src="imgs/what-we-do-2-DVAo6agz.png" alt="logo-2" class="rounded-3">
+            <div class="col-6 col-md-6 col-lg-3  ">
+              <div class="aspect-ratio">
+                <img src="imgs/what-we-do-2-DVAo6agz.png" alt="logo-2" class="rounded-3">
+              </div>
             </div>
-          </div>
-          <div class="col-6 col-md-6 col-lg-3 what-we-do">
-            <div class=" border-gray-2 rounded-4 d-flex align-items-center justify-content-center flex-column flex-wrap
+            <div class="col-6 col-md-6 col-lg-3 what-we-do position-relative overflow-hidden">
+              <div class=" border-gray-2 rounded-4 d-flex align-items-center justify-content-center flex-column flex-wrap
               bg-dark-4 aspect-ratio p-3 p-lg-4">
-              <div class="what-we-do-icon rounded-3 d-flex align-items-center justify-content-center mb-12 mb-lg-3"><i
-                  class="fa-brands fa-playstation"></i></div>
-              <h3 class="text-white fs-5 fw-bolder text-center">PS4 Game <br> Development</h3>
+                <div class="what-we-do-icon rounded-3 d-flex align-items-center justify-content-center mb-12 mb-lg-3"><i
+                    class="fa-brands fa-playstation"></i></div>
+                <h3 class="text-white fs-5 fw-bolder text-center">PS4 Game <br> Development</h3>
+              </div>
+              <div class="position-absolute triangle-shape"></div>
+              <div class="position-absolute triangle-shape-2"></div>
             </div>
-          </div>
-          <div class="col-6 col-md-6 col-lg-3 what-we-do">
-            <div
-              class="border-gray-2 rounded-4 d-flex align-items-center justify-content-center flex-column flex-wrap bg-dark-4 aspect-ratio p-3 p-lg-4">
-              <div class="what-we-do-icon rounded-3 d-flex align-items-center justify-content-center mb-12 mb-lg-3"><i
-                  class="fa-solid fa-cube"></i></div>
-              <h3 class="text-white fs-5 fw-bolder text-center">3D <br>
+            <div class="col-6 col-md-6 col-lg-3 what-we-do position-relative overflow-hidden">
+              <div
+                class="border-gray-2 rounded-4 d-flex align-items-center justify-content-center flex-column flex-wrap bg-dark-4 aspect-ratio p-3 p-lg-4">
+                <div class="what-we-do-icon rounded-3 d-flex align-items-center justify-content-center mb-12 mb-lg-3"><i
+                    class="fa-solid fa-cube"></i></div>
+                <h3 class="text-white fs-5 fw-bolder text-center">3D <br>
 
-                Modelings</h3>
+                  Modelings</h3>
+              </div>
+              <div class="position-absolute triangle-shape"></div>
+              <div class="position-absolute triangle-shape-2"></div>
             </div>
           </div>
         </div>
-
-
-
-
       </div>
-      </div>
+
+      
     </section>
+
+
+
+    <section id="what-we-do" class="sponsors position-relative overflow-hidden bg-dark-gray px-21 z-3">
+      <div>
+        <div class="mb-3 position-relative overflow-hidden ">
+          <div class="animation d-flex min-width">
+            <div class="me-3"><img src="imgs/logo-1-ByM-Sex8.jpg" alt="logo-1" class="rounded-4"> </div>
+            <div class="me-3"><img src="imgs/logo-2-0gIktwSm.jpg" alt="logo-2" class="rounded-4"></div>
+            <div class="me-3"><img src="imgs/logo-3-CczztP90.jpg" alt="logo-3" class="rounded-4"></div>
+            <div class="me-3"><img src="imgs/logo-4-CqgtpirC.jpg" alt="logo-4" class="rounded-4"></div>
+            <div class="me-3"><img src="imgs/logo-5-DFypfU0k.jpg" alt="logo-5" class="rounded-4"></div>
+            <div class="me-3"> <img src="imgs/logo-6-DcGD8G7v.jpg" alt="logo-6" class="rounded-4"></div>
+            <div class="me-3"> <img src="imgs/logo-7-DSTdzFnp.jpg" alt="logo-7" class="rounded-4"> </div>
+            <div class="me-3"> <img src="imgs/logo-8-BuH3qQns.jpg" alt="logo-8" class="rounded-4"></div>
+            <div class="me-3"> <img src="imgs/logo-9-btJ2eZYX.jpg" alt="logo-9" class="rounded-4"></div>
+            <div class="me-3"> <img src="imgs/logo-10-DlvZwrGv.jpg" alt="logo-10" class="rounded-4"></div>
+            <div class="me-3"><img src="imgs/logo-1-ByM-Sex8.jpg" alt="logo-1" class="rounded-4"> </div>
+            <div class="me-3"><img src="imgs/logo-2-0gIktwSm.jpg" alt="logo-2" class="rounded-4"></div>
+            <div class="me-3"><img src="imgs/logo-3-CczztP90.jpg" alt="logo-3" class="rounded-4"></div>
+            <div class="me-3"><img src="imgs/logo-4-CqgtpirC.jpg" alt="logo-4" class="rounded-4"></div>
+            <div class="me-3"><img src="imgs/logo-5-DFypfU0k.jpg" alt="logo-5" class="rounded-4"></div>
+            <div class="me-3"> <img src="imgs/logo-6-DcGD8G7v.jpg" alt="logo-6" class="rounded-4"></div>
+            <div class="me-3"> <img src="imgs/logo-7-DSTdzFnp.jpg" alt="logo-7" class="rounded-4"> </div>
+            <div class="me-3"> <img src="imgs/logo-8-BuH3qQns.jpg" alt="logo-8" class="rounded-4"></div>
+            <div class="me-3"> <img src="imgs/logo-9-btJ2eZYX.jpg" alt="logo-9" class="rounded-4"></div>
+            <div class="me-3"> <img src="imgs/logo-10-DlvZwrGv.jpg" alt="logo-10" class="rounded-4"></div>
+            <div class="me-3"><img src="imgs/logo-1-ByM-Sex8.jpg" alt="logo-1" class="rounded-4"> </div>
+            <div class="me-3"><img src="imgs/logo-2-0gIktwSm.jpg" alt="logo-2" class="rounded-4"></div>
+            <div class="me-3"><img src="imgs/logo-3-CczztP90.jpg" alt="logo-3" class="rounded-4"></div>
+            <div class="me-3"><img src="imgs/logo-4-CqgtpirC.jpg" alt="logo-4" class="rounded-4"></div>
+            <div class="me-3"><img src="imgs/logo-5-DFypfU0k.jpg" alt="logo-5" class="rounded-4"></div>
+          </div>
+          <div class="position-absolute what-we-do-layer start-0 top-0 bottom-0 z-3"></div>
+          <div class="position-absolute what-we-do-layer end-0 top-0 bottom-0 z-3"></div>
+        </div>
+        <div class="position-relative overflow-hidden ">
+          <div class="animation-2 d-flex min-width">
+            <div class="me-3"><img src="imgs/logo-1-ByM-Sex8.jpg" alt="logo-1" class="rounded-4"> </div>
+            <div class="me-3"><img src="imgs/logo-2-0gIktwSm.jpg" alt="logo-2" class="rounded-4"></div>
+            <div class="me-3"><img src="imgs/logo-3-CczztP90.jpg" alt="logo-3" class="rounded-4"></div>
+            <div class="me-3"><img src="imgs/logo-4-CqgtpirC.jpg" alt="logo-4" class="rounded-4"></div>
+            <div class="me-3"><img src="imgs/logo-5-DFypfU0k.jpg" alt="logo-5" class="rounded-4"></div>
+            <div class="me-3"> <img src="imgs/logo-6-DcGD8G7v.jpg" alt="logo-6" class="rounded-4"></div>
+            <div class="me-3"> <img src="imgs/logo-7-DSTdzFnp.jpg" alt="logo-7" class="rounded-4"> </div>
+            <div class="me-3"> <img src="imgs/logo-8-BuH3qQns.jpg" alt="logo-8" class="rounded-4"></div>
+            <div class="me-3"> <img src="imgs/logo-9-btJ2eZYX.jpg" alt="logo-9" class="rounded-4"></div>
+            <div class="me-3"> <img src="imgs/logo-10-DlvZwrGv.jpg" alt="logo-10" class="rounded-4"></div>
+            <div class="me-3"><img src="imgs/logo-1-ByM-Sex8.jpg" alt="logo-1" class="rounded-4"> </div>
+            <div class="me-3"><img src="imgs/logo-2-0gIktwSm.jpg" alt="logo-2" class="rounded-4"></div>
+            <div class="me-3"><img src="imgs/logo-3-CczztP90.jpg" alt="logo-3" class="rounded-4"></div>
+            <div class="me-3"><img src="imgs/logo-4-CqgtpirC.jpg" alt="logo-4" class="rounded-4"></div>
+            <div class="me-3"><img src="imgs/logo-5-DFypfU0k.jpg" alt="logo-5" class="rounded-4"></div>
+            <div class="me-3"> <img src="imgs/logo-6-DcGD8G7v.jpg" alt="logo-6" class="rounded-4"></div>
+            <div class="me-3"> <img src="imgs/logo-7-DSTdzFnp.jpg" alt="logo-7" class="rounded-4"> </div>
+            <div class="me-3"> <img src="imgs/logo-8-BuH3qQns.jpg" alt="logo-8" class="rounded-4"></div>
+            <div class="me-3"> <img src="imgs/logo-9-btJ2eZYX.jpg" alt="logo-9" class="rounded-4"></div>
+            <div class="me-3"> <img src="imgs/logo-10-DlvZwrGv.jpg" alt="logo-10" class="rounded-4"></div>
+            <div class="me-3"><img src="imgs/logo-1-ByM-Sex8.jpg" alt="logo-1" class="rounded-4"> </div>
+            <div class="me-3"><img src="imgs/logo-2-0gIktwSm.jpg" alt="logo-2" class="rounded-4"></div>
+            <div class="me-3"><img src="imgs/logo-3-CczztP90.jpg" alt="logo-3" class="rounded-4"></div>
+            <div class="me-3"><img src="imgs/logo-4-CqgtpirC.jpg" alt="logo-4" class="rounded-4"></div>
+            <div class="me-3"><img src="imgs/logo-5-DFypfU0k.jpg" alt="logo-5" class="rounded-4"></div>
+          </div>
+          <div class="position-absolute what-we-do-layer start-0 top-0 bottom-0 z-3"></div>
+          <div class="position-absolute what-we-do-layer end-0 top-0 bottom-0 z-3"></div>
+        </div>
+      </div>
+      <div class="position-absolute z-n1 yellow-layer top-0 start-0 end-0 bottom-0"></div>
+
+    </section><!-- ^sponsors -->
+
 
     <!-- ^our-team-section -->
     <section id="our-team" class="px-4 bg-dark-gray">
@@ -337,8 +426,8 @@
       </div>
 
       <div class="container-fluid">
-        <div class="row gx-lg-5 gx-md-4 gx-3 gy-4">
-          <div class="col-12 col-md-6 col-lg-6 p-0 ps-lg-0 pe-lg-4">
+        <div class="row gx-lg-5 gx-3 gy-4">
+          <div class="col-12 col-md-12 col-lg-6 p-0 ps-lg-0 pe-lg-4">
             <div class="bg-dark-2 p-4 mb-4 rounded-4">
               <div class="mb-4 d-flex align-items-center">
                 <div class="card-icon rounded-circle d-flex align-items-center justify-content-center me-4"><i
@@ -386,7 +475,7 @@
           </div>
 
 
-          <div class="col-12 col-md-6 col-lg-6 p-0 pe-lg-0 ps-lg-4">
+          <div class="col-12 col-md-12 col-lg-6 p-0 pe-lg-0 ps-lg-4">
             <div class="bg-dark-2 p-4 rounded-4">
               <h3 class="text-white fw-bolder fs-4 mb-4">Send us a Message</h3>
               <form>
@@ -461,7 +550,7 @@
   <footer id="contact-us" class="py-5 px-2 px-lg-4 ">
     <div class="container-fluid mb-5 ps-0">
       <div class="row gx-lg-5 gy-lg-0 gy-4">
-        <div class="col-12 col-lg-3 col-md-3">
+        <div class="col-12 col-lg-3 col-md-6">
           <div class="nav-header-logo fs-5 fw-bolder mb-4">
             <i class="fa-solid fa-gamepad me-2"></i>
             GameArena
@@ -483,7 +572,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-lg-3 col-md-3">
+        <div class="col-12 col-lg-3 col-md-6">
           <h4 class="fs-4 fw-bolder text-white mb-4">Games</h4>
           <ul class="ps-0">
             <li class="mb-12">
@@ -508,7 +597,7 @@
           </ul>
         </div>
 
-        <div class="col-12 col-lg-3 col-md-3 ">
+        <div class="col-12 col-lg-3 col-md-6">
           <h4 class="fs-4 fw-bolder text-white mb-4">Tournaments</h4>
           <ul class="ps-0">
             <li class="mb-12">
@@ -534,7 +623,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-12 col-lg-3 col-md-3 ">
+        <div class="col-12 col-lg-3 col-md-6">
           <h4 class="fs-4 fw-bolder text-white mb-4">Support</h4>
           <ul class="ps-0">
             <li class="mb-12">
