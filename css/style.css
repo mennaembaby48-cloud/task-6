@@ -226,6 +226,37 @@ a {
     font-size: 14px;
 }
 
+/* ^our-games-section */ 
+
+#our-games{
+    padding: 56px 16px;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.border-gray-bold{
+    border: 1.5px solid #364153;;
+}
+
+.arrow{
+    width: 54px;
+    height: 54px;
+    transition: all 0.3s;
+}
+.arrow i{
+    transition: all 0.3s;
+}
+
+.arrow:hover{
+    border: 1.5px solid var(--main-color);
+}
+.arrow:hover i{
+color: var(--main-color);
+}
 /* ^what we do-section */
 #what-we-do {
     padding-block: 42px;
@@ -359,14 +390,14 @@ section:nth-of-type(3)#what-we-do::before {
 
 .animation {
     animation-name: scroll-left;
-    animation-duration: 30s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 
 .animation-2 {
     animation-name: scroll-right;
-    animation-duration: 30s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -682,4 +713,7 @@ footer a:hover {
     #contact-us{
         padding: 84px 21px;
     }
+    #our-games{
+    padding:96px 24px;
+}
 }
