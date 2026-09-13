@@ -213,10 +213,12 @@ right: -80px;}
 /* ^what we do-section */
 #what-we-do div>p:nth-of-type(2){
     font-size: 20px;
+    -webkit-text-stroke: 1px #fff;
     font-weight: 500;
 }
 #what-we-do div>p:nth-of-type(2) span{
     color: var(--main-color);
+    -webkit-text-stroke: 1px var(--main-color);
 }
 #what-we-do div>h2{
     font-size: 20px;
