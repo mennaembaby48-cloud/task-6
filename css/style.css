@@ -204,12 +204,59 @@ top: 50%;
 transform: translateY(-50%);
 right: -80px;}
 .heading h2{
-    font-size: 45px;
+    font-size: 32px;
     -webkit-text-stroke: 1px #fff;
 }
+.heading p:nth-of-type(2){
+    font-size: 14px;
+}
+/* ^what we do-section */
+#what-we-do div>p:nth-of-type(2){
+    font-size: 20px;
+    font-weight: 500;
+}
+#what-we-do div>p:nth-of-type(2) span{
+    color: var(--main-color);
+}
+#what-we-do div>h2{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.bg-dark-4{
+    background-color: #1a1a1a;
+}
 
+.what-we-do-icon{
+    width: 42px;
+    height: 42px;
+    background-color: #1e2939;
+}
+.what-we-do-icon i{
+    font-size: 16px;
+    color: var(--main-color);
+}
+
+.aspect-ratio{
+    aspect-ratio: 1/1;
+}
+#what-we-do img{
+    width: 100%;
+}
+
+.what-we-do i,.what-we-do,.what-we-do >div:nth-of-type(1)>div:nth-of-type(1){
+transition: all 0.2s;
+}
+.what-we-do:hover i{
+ color: #000;
+}
+.what-we-do:hover >div:nth-of-type(1)>div:nth-of-type(1){
+background-color: var(--main-color);}
+.what-we-do >div:nth-of-type(1):hover{
+    border: 1px solid var(--main-color);
+}
+   
 /* ^our-team-section */
-#our-team{
+#our-team,#what-we-do{
     padding-block: 84px;
 }
 .dark-layer::before{
@@ -233,8 +280,6 @@ display: block;
  div .dark-layer:hover::before p{
     color: var(--main-color) ;
 }
-
-
 
  .dark-layer .hover-yellow p:nth-of-type(1),.dark-layer:hover .rotate-vertical
 {
@@ -281,9 +326,7 @@ background-color: var(--main-color);
 .colorful-card i{
     color: var(--main-color);
 }
-.w-48{
-    width: 48%;
-}
+
 .bg-dark-3{
     background-color: #364153;
 }
@@ -403,8 +446,32 @@ font-size:16px ;
 #our-team{
     padding-block: 96px;
 }
+#what-we-do{
+    padding-block: 96px 48xp;
+}
 
 .copy-right a{
     font-size: 16px;
+}
+#what-we-do div>p:nth-of-type(2){
+    font-size: 45px;
+    font-weight: 400;
+    -webkit-text-stroke: 0.5px #fff;
+}
+
+.heading h2{
+    font-size: 45px;
+    -webkit-text-stroke: 1px #fff;
+}
+
+.heading p:nth-of-type(2){
+    font-size: 16px;
+}
+.what-we-do-icon{
+    width: 62px;
+    height: 62px;
+}
+.what-we-do-icon i{
+    font-size: 20px;
 }
 }
