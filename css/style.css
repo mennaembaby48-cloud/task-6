@@ -2,6 +2,9 @@
     --main-color: #cbfe1c;
     --color-wt: #fff;
 }
+*{
+    box-sizing: border-box;
+}
 
 body {
     font-family: "Days One", sans-serif;
@@ -257,6 +260,42 @@ a {
 .arrow:hover i{
 color: var(--main-color);
 }
+
+
+.game-layer{
+    top: -32px;
+    left: 16px;
+}
+.game-layer:hover{
+    top: 12px;
+    left: 12px;
+}
+
+.game-items{
+    transition: all 0.3s;
+}
+.game-items:hover{
+    border: 2px solid var(--main-color);
+} 
+
+.game-items img:hover{
+transform: scale(1.08);
+}
+.game-items img{
+    transition: all 0.3s;
+}
+.bg-darkgreen{
+    background-color: #2b481d;
+}
+
+.game-items:hover .game-layer span i{
+color: var(--main-color);
+} 
+
+.game-items .game-layer span i{
+transition: color 0.3s;} 
+
+
 /* ^what we do-section */
 #what-we-do {
     padding-block: 42px;
@@ -678,6 +717,10 @@ footer a:hover {
         font-weight: 400;
         -webkit-text-stroke: 0.5px #fff;
     }
+    #what-we-do div>h2 {
+    font-size: 45px;
+    letter-spacing: 1px;
+}
 
     .heading h2 {
         font-size: 45px;
@@ -716,5 +759,6 @@ footer a:hover {
     #our-games{
     padding:96px 24px;
 }
+
 
 }
